@@ -84,3 +84,58 @@ padding: 15px 20% 0 20%;
     margin-top: 14%;
     color: #DC143C;
 }
+/**_________________________________________________Página Contatos__________________________________________________________________________________________**/
+.contato{
+    padding: 0px 18% 0 20%;
+}
+/**Configuração do formulario**/
+.contato textarea {
+    padding: 5% 5%;
+    width: 30%;
+    padding: 5% 4% 8% 2%;
+    border-radius: 5%;
+    text-align: justify;
+}
+.contato input{
+    width: 30%;
+    border: none;
+}
+.contato h1{
+    color: #DC143C;
+}
+.btn button{
+    padding: 10px 2% 2% 2%;
+    border: none;
+    border-radius: 20%;
+    color: #fff;
+    background-color: #FF0000;
+}
+.btn button:hover{
+    background-color: #B0E0E6;
+    cursor: pointer;
+}
+.btn{
+    padding: 1% 0 0 30%;
+}
+/**Links das redes sociais**/
+.redes a{
+    text-decoration: none;
+    color: #fff;  
+}
+.redes h1{
+    color: #DC143C;
+}
+.redes a:hover{
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.redes{
+    padding: 0px 18% 0 20%;
+}
+
+.tdrcontato{
+    text-align: center;
+    margin-top: 3%;
+    color: #DC143C;
+}
