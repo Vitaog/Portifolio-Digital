@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+{% extends "template_base.html" %}
+
+{% block contents %}
     <title>Contato</title>
-</head>
+
 <body>
-    <!--Barra de navegação-->
-<div class="navbar">
-    <nav>
-        <h2>Port<span>fólio</span></h2>
-        <a href="index.html">Inicio</a>
-        <a href="sobremim.html">Sobre mim</a>
-        <a href="projeto.html">Projetos</a>
-        <a href="contato.html">Contatos</a>
-    </nav>
-</div>
+
 <!--Contato-->
 <div class="contato">
     <h1>Contato</h1>
@@ -41,9 +28,6 @@
     <a href="https://www.linkedin.com/in/vitorgarcezdeoliveira/">Clique aqui para conhecer meu Linkedin</a><br><br>
     <a href="https://github.com/Vitaog">Clique aqui para conhecer meu GitHub</a>  
 </div>
-<!--Todos os direitos reservados-->
-<div class="tdrcontato">
-    <h4>Todos os direitos reservados &#8482</h4>
-</div>    
+    
 </body>
-</html>
+{% endblock %}

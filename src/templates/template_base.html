@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style.css') }}">
+    {% endblock %}
+</head>
+<body>
+
+    {% block nav %}
+<!--Barra de navegação-->
+<div class="navbar">
+    <img src="{{ url_for('static',filename='img/logo.png') }}" alt="Logo">
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/sobremim">Sobre mim</a>
+        <a href="/projeto">Projetos</a>
+        <a href="/contato">Contatos</a>
+    </nav>
+</div>
+{% endblock %}
+
+<div>
+    {% block contents %}
+    {% endblock contents %}
+</div>
+
+{% block footer %}
+</div>
+<!--Todos os direitos reservados-->
+<div class="tdrindex">
+<h4>Todos os direitos reservados &#8482</h4>
+</div>
+{% endblock footer %}
+
+</body>
+</html>
